@@ -21,7 +21,7 @@ export default function Navbar({ darkMode, setDarkMode, currentPage, setCurrentP
             Sachin
             </button>
             <div className="flex items-center space-x-6 ml-8">
-              <button
+              {/* <button
                 onClick={() => setCurrentPage('home')}
                 className={`text-sm font-medium transition-all duration-300 hover:scale-105 ${
                   currentPage === 'home'
@@ -30,7 +30,7 @@ export default function Navbar({ darkMode, setDarkMode, currentPage, setCurrentP
                 }`}
               >
                 Home
-              </button>
+              </button> */}
               <button
                 onClick={() => setCurrentPage('projects')}
                 className={`text-sm font-medium transition-all duration-300 hover:scale-105 ${
