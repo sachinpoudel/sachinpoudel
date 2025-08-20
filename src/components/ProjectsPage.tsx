@@ -16,7 +16,7 @@ export default function ProjectsPage() {
       title: "A CSIT Notes App",
       tech: "Powered By Wordpress",
       description: "A Complete Notes Website for BSc.CSIT students, providing resources, notes, and study materials for all semesters. Currently looking for team members to improve it.",
-      status : "Live",
+      status : "Development",
       year : "2025",
       link: "https://mycsitpath.42web.io/"
 
