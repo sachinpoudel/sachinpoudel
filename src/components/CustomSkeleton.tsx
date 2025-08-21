@@ -29,9 +29,9 @@ const CustomSkeleton: React.FC<Props> = ({
             height={height}
             sx={{
               mb: i < count - 1 ? spacing : 0,
-              bgcolor: "grey.300",
+              bgcolor: "grey.800",
               "@media (prefers-color-scheme: dark)": {
-                bgcolor: "grey.700",
+                bgcolor: "grey.800",
               },
             }}
           />

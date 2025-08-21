@@ -45,7 +45,7 @@ export default function HomePage() {
       </div>)}
   
      
-      {loading ? ( <CustomSkeleton variant="text" width="100%" height={240}  />) : (  <div className="mb-20 p-8 bg-gradient-to-br from-white/60 to-gray-50/60 dark:from-gray-800/40 dark:to-gray-900/40 rounded-2xl border border-gray-200/40 dark:border-gray-700/40 shadow-lg backdrop-blur-sm">
+      {loading ? ( <CustomSkeleton variant="text" width="100%" height={285}   />) : (  <div className="mb-20 p-8 bg-gradient-to-br from-white/60 to-gray-50/60 dark:from-gray-800/40 dark:to-gray-900/40 rounded-2xl border border-gray-200/40 dark:border-gray-700/40 shadow-lg backdrop-blur-sm">
         <p className="text-lg leading-relaxed mb-6 text-gray-700 dark:text-gray-300 font-medium">
         Aspiring developer currently learning Full-Stack development. I love experimenting with projects,
          improving my skills, and exploring how technology solves real-world problems.
@@ -67,8 +67,7 @@ export default function HomePage() {
           </span>
         </div>)}
        
-        
-        <div className="grid gap-8">
+        {loading ? ( <CustomSkeleton variant="text" width="100%" height={270}  />) : ( <div className="grid gap-8">
           {featuredProjects.map((project, index) => (
             <div key={index} className="group p-6 bg-gradient-to-br from-white/70 to-gray-50/70 dark:from-gray-800/50 dark:to-gray-900/50 rounded-2xl border border-gray-200/40 dark:border-gray-700/40 hover:border-blue-300/60 dark:hover:border-blue-500/60 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 hover:-translate-y-1 backdrop-blur-sm">
               <h3 className="text-xl font-bold mb-3">
@@ -89,7 +88,8 @@ export default function HomePage() {
               </p>
             </div>
           ))}
-        </div>
+        </div>)}
+       
       </div>
 
     
