@@ -95,7 +95,7 @@ export default function ProjectsPage() {
       {/* Footer */}
       <div className="mt-20 pt-8 border-t border-gray-200/40 dark:border-gray-700/40">
         <p className="text-sm text-gray-500 dark:text-gray-400 text-center font-medium">
-          © 2025 sachin
+          © {new Date().getFullYear()} sachin
         </p>
       </div>
     </div>
