@@ -9,7 +9,9 @@ interface NavbarProps {
   currentPage: string;
   setCurrentPage: (page: string) => void;
 }
- const [loading, setLoading] = useState(true);
+ 
+export default function Navbar({ darkMode, setDarkMode, currentPage, setCurrentPage }: NavbarProps) {
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // simulate loading time
@@ -19,7 +21,7 @@ interface NavbarProps {
 
     return () => clearTimeout(timer);
   }, []);
-export default function Navbar({ darkMode, setDarkMode, currentPage, setCurrentPage }: NavbarProps) {
+
   return (
     <nav className="sticky top-0 z-10 flex justify-center py-6">
        {loading ? (<CustomSkeleton variant="rectangular" width="100%" height={70} />
