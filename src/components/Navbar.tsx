@@ -24,7 +24,7 @@ export default function Navbar({ darkMode, setDarkMode, currentPage, setCurrentP
 
   return (
     <nav className="sticky top-0 z-10 flex justify-center py-6">
-       {loading ? (<CustomSkeleton variant="rectangular" width={650} height={70} />
+       {loading ? (<CustomSkeleton variant="rectangular" width={620} height={70} />
 ) : (<div className="max-w-2xl w-full mx-auto px-6">
   <div className="bg-gradient-to-r from-white/80 via-gray-50/80 to-white/80 dark:from-gray-900/80 dark:via-gray-800/80 dark:to-gray-900/80 backdrop-blur-xl border border-gray-200/60 dark:border-gray-600/60 rounded-2xl px-8 py-4 shadow-xl shadow-gray-200/30 dark:shadow-black/50">
     <div className="flex justify-between items-center">
