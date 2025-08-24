@@ -8,7 +8,7 @@ A clean, minimal portfolio website built with React, TypeScript, and Tailwind CS
 - Dark/light mode toggle
 - Sticky navigation
 - Responsive layout
-- Fast and lightweight 
+- Fast and lightweight  
 
 ## Getting Started
 
