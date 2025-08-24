@@ -59,7 +59,7 @@ Edit `src/App.tsx` to customize:
 - Contact information and social links
 - Colors and styling
 
-## Technologies Used
+## Technologies used
 
 - React 18
 - TypeScript
