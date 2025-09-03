@@ -54,7 +54,7 @@ npm run preview
 ## Customization
 
 Edit `src/App.tsx` to customize:
-- Your name and description
+- Your name and description..
 - Projects list
 - Contact information and social links
 - Colors and styling.
