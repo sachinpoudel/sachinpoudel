@@ -26,7 +26,7 @@ A clean, minimal portfolio website built with React, TypeScript, and Tailwind CS
    npm install
    ```
 
-### Development
+### Development 
 
 Run the development server:
 ```bash
