@@ -31,7 +31,7 @@ const CustomSkeleton: React.FC<Props> = ({
               mb: i < count - 1 ? spacing : 0,
               bgcolor: "grey.800",
               "@media (prefers-color-scheme: dark)": {
-                bgcolor: "grey.800",
+                bgcolor: "grey.700",
               },
             }}
           />
