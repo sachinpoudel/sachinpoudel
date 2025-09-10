@@ -57,7 +57,7 @@ Edit `src/App.tsx` to customize:
 - Your name and description..
 - Projects list
 - Contact information and social links
-- Colors and styling.
+- Colors and styling. 
 
 ## Technologies used
 
