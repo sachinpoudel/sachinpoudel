@@ -64,4 +64,4 @@ Edit `src/App.tsx` to customize:
 - React 18
 - TypeScript
 - Tailwind CSS
-- Vite# portfolio.. 
+- Vite# portfolio..
