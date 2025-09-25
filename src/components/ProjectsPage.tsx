@@ -2,16 +2,7 @@ import React from 'react';
 
 export default function ProjectsPage() {
   const allProjects = [
-    {
-      title: "A UI Focused Shop Website",
-      tech: " React, TypeScript, TailwindCSS ",
-      description: "Currently working on a UI focused shop website with React, TypeScript, and TailwindCSS. The project emphasizes responsive design, smooth animations, and an intuitive user interface to enhance the shopping experience.",
-      status : "Development",
-      year : "2025",
-      link: "https://ui-stuff-5rmo.vercel.app/"
-
-    
-    },
+  
     {
       title: "A blog App",
       tech: " React, Node,Express and MongoDB",
