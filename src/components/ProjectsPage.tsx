@@ -33,12 +33,12 @@ export default function ProjectsPage() {
     
     },
     {
-      title: "A CatGpt for you",
-      tech: "TypeScript Next",
-      description: "A fun project CATGPT_ Meow Meow",
+      title: "A  Group Chat Application",
+      tech: "TypeScript NodeJs ExpressJs Socket.io and MongoDB",
+      description: "A fun project to build a real-time group chat application using Socket.io for real-time communication and MongoDB for storing chat history.",
       status : "Live",
       year : "2025",
-      link: "https://v0-catgpt-chat-app.vercel.app/"
+      link: "https://chat-mu73.onrender.com"
 
     
     },
